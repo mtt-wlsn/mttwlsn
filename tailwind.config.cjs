@@ -4,12 +4,28 @@ module.exports = {
 		colors: {
 			'blue-dark': 'rgb(4, 36, 61)',
 			'gray-light': 'rgb(244, 244, 244)',
-			'orange': 'rgb(235, 125, 63)'
+			orange: 'rgb(235, 125, 63)'
 		},
 		fontFamily: {
-			'sans': ['"Nunito Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"']
+			sans: [
+				'"Nunito Sans"',
+				'ui-sans-serif',
+				'system-ui',
+				'-apple-system',
+				'BlinkMacSystemFont',
+				'"Segoe UI"',
+				'Roboto',
+				'"Helvetica Neue"',
+				'Arial',
+				'"Noto Sans"',
+				'sans-serif',
+				'"Apple Color Emoji"',
+				'"Segoe UI Emoji"',
+				'"Segoe UI Symbol"',
+				'"Noto Color Emoji"'
+			]
 		},
-		extend: {},
+		extend: {}
 	},
 	plugins: []
 };
