@@ -2,6 +2,6 @@
     import Branding from './branding.svelte';
 </script>
 
-<header>
+<header class="pt-10">
     <Branding/>
 </header>

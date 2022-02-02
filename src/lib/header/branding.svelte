@@ -5,11 +5,9 @@
 <style lang="scss">
 
 .branding {
-  
-  animation: fadeIn linear 1s;
+
   font-size: 1.5em;
   font-weight: 800;
-  letter-spacing: .1em;
   padding: 1em;
   
   .code {
