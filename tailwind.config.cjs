@@ -25,7 +25,12 @@ module.exports = {
 				'"Noto Color Emoji"'
 			]
 		},
-		extend: {}
+		extend: {
+			backgroundImage: {
+				'cartographer-dark-mode': "url('/cartographer-dark-mode.webp')",
+				'cartographer-light-mode': "url('/cartographer-light-mode.webp')"
+			}
+		}
 	},
 	plugins: []
 };
