@@ -5,12 +5,10 @@
 <style lang="scss">
 	.branding {
 		font-size: 1.5em;
-		font-weight: 800;
 		padding: 1em;
 
 		.code {
 			color: #eb7d3f;
-			font-weight: 800;
 			filter: blur(0em);
 			transition: filter 0.5s;
 		}
