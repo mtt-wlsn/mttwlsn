@@ -3,4 +3,5 @@
 	<h2 class="text-2xl pt-3 max-w-prose">
 		A quality-obsessed Software Developer zeroed in on getting stuff shipped.
 	</h2>
+	<h3 class="text-xl pt-6 max-w-prose">🚧 This website is under construction! 🚧</h3>
 </div>
