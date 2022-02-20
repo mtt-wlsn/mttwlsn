@@ -1,5 +1,5 @@
 <div class="branding">
-	<span class="code">&lt;&#47;</span>m<span class="optional">a</span>tt<span class="optional">&nbsp;</span>w<span class="optional">i</span>ls<span class="optional">o</span>n<span class="code">&gt;</span>
+	<a sveltekit:prefetch href="/"><span class="code">&lt;&#47;</span>m<span class="optional">a</span>tt<span class="optional">&nbsp;</span>w<span class="optional">i</span>ls<span class="optional">o</span>n<span class="code">&gt;</span></a>
 </div>
 
 <style lang="scss">
@@ -8,7 +8,7 @@
 		padding: 1em;
 
 		.code {
-			color: #eb7d3f;
+			color: var(--branding-orange);
 			filter: blur(0em);
 			transition: filter 0.5s;
 		}

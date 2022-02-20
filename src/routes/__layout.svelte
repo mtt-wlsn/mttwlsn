@@ -1,6 +1,7 @@
 <script lang="ts">
 	import splitbee from '@splitbee/web';
 	import Header from '$lib/header/header.svelte';
+	import Footer from '$lib/footer/footer.svelte';
 	import '../app.css';
 
 	splitbee.init({
@@ -14,3 +15,5 @@
 <main>
 	<slot />
 </main>
+
+<Footer />
