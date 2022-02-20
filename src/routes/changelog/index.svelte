@@ -1,0 +1,2 @@
+<h1 class="font-extrabold text-4xl leading-relaxed">Changelog</h1>
+<p class="text-lg pt-6 max-w-prose leading-relaxed">Somewhat based on <a href="https://keepachangelog.com/">"keep a changelog"</a> this page exists as a fun way for me to display a curated list of changes I have made to this website.</p>
