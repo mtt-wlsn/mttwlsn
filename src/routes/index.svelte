@@ -1,7 +1,6 @@
-<div class="p-8">
-	<h1 class="font-extrabold text-4xl">This is the online home of Matt Wilson</h1>
-	<h2 class="text-2xl pt-3 max-w-prose">
-		A quality-obsessed Software Developer zeroed in on getting stuff shipped.
-	</h2>
-	<h3 class="text-xl pt-6 max-w-prose">🚧 This website is under construction! 🚧</h3>
-</div>
+<h1 class="font-extrabold text-4xl leading-relaxed">Hello! 👋<br />Welcome to the website of Matt Wilson.</h1>
+<h2 class="text-2xl pt-2 max-w-prose leading-relaxed">
+	A Lead Software Developer at the leading worldwide provider of payment technology and software solutions.
+</h2>
+<h3 class="text-xl pt-6 max-w-prose">🚧 This website is under construction! 🚧</h3>
+<p class="text-lg pt-6 max-w-prose leading-relaxed">Rather than waiting for a "complete" website to launch, I've decided to start with this blank slate and add new features as I can.  Be sure to drop by from time to time to see what improvements I've made!</p>
