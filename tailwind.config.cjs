@@ -25,7 +25,7 @@ module.exports = {
 				'blue-dark': 'rgb(4, 36, 61)',
 				'gray-light': 'rgb(244, 244, 244)',
 				orange: 'rgb(235, 125, 63)'
-			}	
+			}
 		}
 	},
 	plugins: []

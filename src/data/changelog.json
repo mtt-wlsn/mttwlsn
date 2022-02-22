@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Added a Changelog",
+		"created_at": "Feb 21st, 2022",
+		"pull_request_link": "https://github.com/mtt-wlsn/mttwlsn/pull/6",
+		"description": "I thought it would be fun to create a page containing a curated, chronologically ordered list of changes made to this website.  Turns out people call something similar to this a changelog."
+	},
+	{
+		"title": "Started Capturing Analytics",
+		"created_at": "Feb 9th, 2022",
+		"pull_request_link": "https://github.com/mtt-wlsn/mttwlsn/pull/4",
+		"description": "Began collecting website analytics using an analytics & conversion platform called <a href='https://splitbee.io/'>Splitbee</a>.  I wanted to try something other than Google Analytics and Splitbee offered a free tier so I thought I'd try it out."
+	}
+]
