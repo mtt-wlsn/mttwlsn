@@ -5,8 +5,8 @@
 	import '../app.css';
 
 	splitbee.init({
-		scriptUrl: "/bee.js",
-		apiUrl: "/_hive"
+		scriptUrl: '/bee.js',
+		apiUrl: '/_hive'
 	});
 </script>
 
