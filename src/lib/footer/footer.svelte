@@ -1,4 +1,5 @@
 <footer class="p-8">
+    <p class="pb-6 text-gray-600">- - -</p>
     <ul>
         <li>
             <a sveltekit:prefetch href="/changelog">changelog</a>

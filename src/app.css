@@ -6,3 +6,11 @@
     --branding-orange: #eb7d3f;
     --branding-light-orange: #F6B036;
 }
+
+p > a {
+    border-bottom: 1px solid var(--branding-orange);
+}
+
+p > a:hover {
+    font-style: italic;
+}
