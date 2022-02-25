@@ -5,7 +5,6 @@
 <style lang="scss">
 	.branding {
 		font-size: 1.5em;
-		padding: 1em;
 
 		.code {
 			color: var(--branding-orange);
