@@ -33,7 +33,7 @@
 		</section>
 
 		{#if i + 1 != changelog_activities.length}
-			<div class="divider pt-10 border-l-4 border-gray-800 border-dashed">&nbsp;</div>
+			<div class="divider pt-10 border-l-4 border-gray-400 dark:border-gray-800 border-dashed">&nbsp;</div>
 		{/if}
 	{/each}
 </div>
