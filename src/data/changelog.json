@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Added Light/Dark Mode With a Toggle",
+		"created_at": "Feb 24th, 2022",
+		"pull_request_link": "https://github.com/mtt-wlsn/mttwlsn/pull/8",
+		"description": "Having different themes for your website, especially a light/dark mode theme is so trendy right now, and really is pretty cool too.  <a href='https://tailwindcss.com/'>Tailwind</a> CSS made this so easy! (although, I suppose it wouldn't have been too difficult with standard css either)."
+	},
+	{
 		"title": "Added a Changelog",
 		"created_at": "Feb 21st, 2022",
 		"pull_request_link": "https://github.com/mtt-wlsn/mttwlsn/pull/6",
