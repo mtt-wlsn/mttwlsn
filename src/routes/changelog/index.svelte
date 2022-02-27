@@ -20,19 +20,23 @@
 			border-gray-300 dark:border-gray-700
 			bg-gray-200 dark:bg-gray-800
 			hover:border-amber-500 dark:hover:border-amber-600
-			hover:bg-gray-100 dark:hover:bg-gray-900">
+			hover:bg-gray-100 dark:hover:bg-gray-900"
+	>
 		<div class="bg-amber-500 dark:bg-amber-600 p-5 rounded-full w-fit mb-4 -mt-16 -ml-5">
 			<ActivityIcon />
 		</div>
 		<h2 class="text-2xl font-extrabold max-w-prose">{activity.title}</h2>
 		<h4 class="text italic pb-3">
-			{activity.created_at} • <PullRequestIcon /> <a href={activity.pull_request_link}>pull request</a>
+			{activity.created_at} • <PullRequestIcon />
+			<a href={activity.pull_request_link}>pull request</a>
 		</h4>
 		<p class="text-lg leading-relaxed max-w-prose">{@html activity.description}</p>
 	</section>
 
 	{#if i + 1 != changelog_activities.length}
-		<div class="divider pt-10 border-l-4 border-gray-400 dark:border-gray-800 border-dashed">&nbsp;</div>
+		<div class="divider pt-10 border-l-4 border-gray-400 dark:border-gray-800 border-dashed">
+			&nbsp;
+		</div>
 	{/if}
 {/each}
 
