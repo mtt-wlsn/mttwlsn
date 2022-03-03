@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>The Website of Matt Wilson</title>
+	<meta name="description" content="The website of Lead Software Developer Matt Wilson." />
+</svelte:head>
+
 <h1 class="font-extrabold text-4xl leading-relaxed">
 	Hello! 👋<br />Welcome to the website of Matt Wilson.
 </h1>
