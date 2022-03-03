@@ -8,6 +8,11 @@
 	import changelog_activities from '$lib/../data/changelog.json';
 </script>
 
+<svelte:head>
+	<title>Changelog - The Website of Matt Wilson</title>
+	<meta name="description" content="A curated list of changes made to www.mttwlsn.com." />
+</svelte:head>
+
 <h1 class="font-extrabold text-4xl leading-relaxed">Changelog</h1>
 <p class="text-lg pt-6 pb-8 max-w-prose leading-relaxed">
 	Somewhat based on <a href="https://keepachangelog.com/">"keep a changelog"</a> this page exists as
