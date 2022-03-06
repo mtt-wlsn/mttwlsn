@@ -1,15 +1,16 @@
 <script lang="ts">
+    
     import Send from '$lib/icons/send.svelte';
+    import ContactForm from '$lib/contact-form/contact-form.svelte';
 
-    async function contactMe() {    
-        const url = `/.netlify/functions/contact-me`;
-        const res = await fetch(url);
-        const data = await res.json();
-        window.alert(data);
+    let contactFormVisible: boolean = false;
+    function ToggleContactForm() {
+        contactFormVisible = !contactFormVisible;
     }
+
 </script>
 
-<a sveltekit:prefetch href="/contact-me"
+<button on:click={ToggleContactForm}
     class="
         inline-block
         text-xl
@@ -21,5 +22,8 @@
         hover:bg-amber-500
         drop-shadow-md hover:drop-shadow-lg
         transition ease-in"
-    on:click={contactMe}
-    ><span class="drop-shadow hidden sm:block">Contact Me</span><span class="inherit sm:hidden"><Send /></span></a>
+    ><span class="drop-shadow hidden sm:block">Contact Me</span><span class="inherit sm:hidden"><Send /></span></button>
+
+{#if contactFormVisible}
+    <ContactForm on:closeContactForm={ToggleContactForm} />
+{/if}
