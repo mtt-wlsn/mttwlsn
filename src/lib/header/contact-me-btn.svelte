@@ -1,17 +1,16 @@
 <script lang="ts">
-    
-    import Send from '$lib/icons/send.svelte';
-    import ContactForm from '$lib/contact-form/contact-form.svelte';
+	import Send from '$lib/icons/send.svelte';
+	import ContactForm from '$lib/contact-form/contact-form.svelte';
 
-    let contactFormVisible: boolean = false;
-    function ToggleContactForm() {
-        contactFormVisible = !contactFormVisible;
-    }
-
+	let contactFormVisible = false;
+	function ToggleContactForm() {
+		contactFormVisible = !contactFormVisible;
+	}
 </script>
 
-<button on:click={ToggleContactForm}
-    class="
+<button
+	on:click={ToggleContactForm}
+	class="
         inline-block
         text-xl
         text-white
@@ -22,8 +21,11 @@
         hover:bg-amber-500
         drop-shadow-md hover:drop-shadow-lg
         transition ease-in"
-    ><span class="drop-shadow hidden sm:block">Contact Me</span><span class="inherit sm:hidden"><Send /></span></button>
+	><span class="drop-shadow hidden sm:block">Contact Me</span><span class="inherit sm:hidden"
+		><Send /></span
+	></button
+>
 
 {#if contactFormVisible}
-    <ContactForm on:closeContactForm={ToggleContactForm} />
+	<ContactForm on:closeContactForm={ToggleContactForm} />
 {/if}
