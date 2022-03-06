@@ -1,11 +1,9 @@
-<div class="branding">
+<div class="branding text-2xl pt-1">
 	<a sveltekit:prefetch href="/"><span class="code">&lt;&#47;</span>m<span class="optional">a</span>tt<span class="optional">&nbsp;</span>w<span class="optional">i</span>ls<span class="optional">o</span>n<span class="code">&gt;</span></a>
 </div>
 
 <style lang="scss">
 	.branding {
-		font-size: 1.5em;
-
 		.code {
 			color: var(--branding-orange);
 			filter: blur(0em);
