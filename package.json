@@ -12,6 +12,8 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@netlify/functions": "^1.0.0",
+		"@sendgrid/mail": "^7.6.1",
 		"@splitbee/web": "^0.3.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
