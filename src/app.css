@@ -14,3 +14,11 @@ p > a {
 p > a:hover {
 	font-style: italic;
 }
+
+.dark input:focus {
+	border: 2px solid white;
+}
+
+.dark textarea:focus {
+	border: 2px solid white;
+}

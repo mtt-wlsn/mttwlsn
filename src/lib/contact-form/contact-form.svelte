@@ -37,9 +37,18 @@
 
 <div
 	transition:fade
-	class="flex justify-center items-center absolute top-0 left-0 w-screen h-screen bg-gray-100 dark:bg-gray-900 z-10"
+	class="fixed top-0 left-0 min-h-screen w-screen bg-gray-100 dark:bg-gray-900 z-10 opacity-90"
+/>
+
+<div
+	transition:fade
+	class="flex justify-center items-center absolute top-0 left-0 w-screen min-h-screen z-20"
 >
-	<div use:clickOutside on:outclick={closeContactForm} class="flex justify-center flex-col p-10">
+	<div
+		use:clickOutside
+		on:outclick={closeContactForm}
+		class="flex justify-center flex-col p-10 bg-gray-100 dark:bg-gray-900 rounded-3xl"
+	>
 		{#if !successMessageVisible && !errorMessageVisible}
 			<button on:click={closeContactForm} class="self-end mb-5 opacity-50 hover:opacity-100"
 				><Close /></button
@@ -141,7 +150,7 @@
 		width: 100%;
 
 		&:focus {
-			border: 2px solid white;
+			border: 2px solid black;
 		}
 	}
 </style>
