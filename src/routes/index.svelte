@@ -6,10 +6,6 @@
 <h1 class="font-extrabold text-4xl leading-relaxed">
 	Hello! 👋<br />Welcome to the website of Matt Wilson.
 </h1>
-<h2 class="text-2xl pt-2 max-w-prose leading-relaxed">
-	A Lead Software Developer at the leading worldwide provider of payment technology and software
-	solutions.
-</h2>
 <h3 class="text-xl pt-6 max-w-prose">🚧 This website is under construction! 🚧</h3>
 <p class="text-lg pt-6 max-w-prose leading-relaxed">
 	Rather than waiting for a "complete" website to launch, I've decided to start with this blank
